@@ -9,9 +9,15 @@
     <Grid>
         <Canvas x:Name="myCanvas" Height="800" Width="1200">
             <Label x:Name="lb_eredmeny" Canvas.Top="30" Canvas.Left="580" FontSize="24"/>
-            <Image x:Name="imgReel1" Canvas.Left="250" Canvas.Top="100" Height="600" Width="200" Stretch="UniformToFill" />
-            <Image x:Name="imgReel2" Canvas.Left="500" Canvas.Top="100" Height="600" Width="200" Stretch="UniformToFill" />
-            <Image x:Name="imgReel3" Canvas.Left="750" Canvas.Top="100" Height="600" Width="200" Stretch="UniformToFill" />
+            <Image x:Name="imgReel1Top" Canvas.Left="250" Canvas.Top="100" Height="200" Width="200" Stretch="UniformToFill"/>
+            <Image x:Name="imgReel1Center" Canvas.Left="250" Canvas.Top="300" Height="200" Width="200" Stretch="UniformToFill"/>
+            <Image x:Name="imgReel1Bottom" Canvas.Left="250" Canvas.Top="500" Height="200" Width="200" Stretch="UniformToFill"/>
+            <Image x:Name="imgReel2Top" Canvas.Left="500" Canvas.Top="100" Height="200" Width="200" Stretch="UniformToFill"/>
+            <Image x:Name="imgReel2Center" Canvas.Left="500" Canvas.Top="300" Height="200" Width="200" Stretch="UniformToFill"/>
+            <Image x:Name="imgReel2Bottom" Canvas.Left="500" Canvas.Top="500" Height="200" Width="200" Stretch="UniformToFill"/>
+            <Image x:Name="imgReel3Top" Canvas.Left="750" Canvas.Top="100" Height="200" Width="200" Stretch="UniformToFill"/>
+            <Image x:Name="imgReel3Center" Canvas.Left="750" Canvas.Top="300" Height="200" Width="200" Stretch="UniformToFill"/>
+            <Image x:Name="imgReel3Bottom" Canvas.Left="750" Canvas.Top="500" Height="200" Width="200" Stretch="UniformToFill"/>
             <Rectangle Canvas.Top="400" Width="1200" Height="5" Fill="Red"/>
             <Button x:Name="btnSpin" Content="Pörgetés" FontSize="36" Canvas.Left="700" Canvas.Top="700" Click="Button_Click"/>
             <Label x:Name="lb_kredit" Content="Kreditek:" FontSize="30" Width="285" Canvas.Left="400" Canvas.Top="700"></Label>
