@@ -19,6 +19,13 @@ namespace gambling
         public MainWindow()
         {
             InitializeComponent();
+            int egyenleg = 100;
+            lb_kredit.Content = $"Kreditek: {egyenleg}";
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
